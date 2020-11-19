@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.team-main {
+  padding: 10vh;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(11, 102, 35, 0.9),
+      rgba(11, 102, 35, 0.5)
+    ),
+    url('../img/footah.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover cover;
+  position: relative;
+}
+.match-main {
+  padding: 10vh;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(11, 102, 35, 0.9),
+      rgba(11, 102, 35, 0.5)
+    ),
+    url('../img/footah.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover cover;
+  position: relative;
+}
